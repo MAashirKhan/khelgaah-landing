@@ -30,7 +30,7 @@
   --glass-blur: 16px;
 
   --font-serif: var(--font-serif-loaded, "Instrument Serif"), ui-serif, Georgia, serif;
-  --font-sport: var(--font-sport-loaded, "Big Shoulders Display"), "Archivo Black", Impact, sans-serif;
+  --font-sport: var(--font-sport-loaded, "Big Shoulders"), "Archivo Black", Impact, sans-serif;
   --font-body: var(--font-body-loaded, "Inter Tight"), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-mono-loaded, "JetBrains Mono"), ui-monospace, monospace;
 }

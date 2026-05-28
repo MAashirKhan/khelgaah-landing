@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import {
   Instrument_Serif,
-  Big_Shoulders_Display,
+  Big_Shoulders,
   Inter_Tight,
   JetBrains_Mono,
 } from 'next/font/google'
@@ -15,7 +15,7 @@ const instrumentSerif = Instrument_Serif({
   display: 'swap',
 })
 
-const bigShoulders = Big_Shoulders_Display({
+const bigShoulders = Big_Shoulders({
   weight: ['700', '800', '900'],
   subsets: ['latin'],
   variable: '--font-sport-loaded',

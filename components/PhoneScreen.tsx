@@ -50,7 +50,7 @@ function ScreenDiscover({ accent }: { accent: string }) {
         <div style={{ fontSize: 11, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#7c87a3', fontFamily: 'JetBrains Mono, monospace' }}>
           Karachi · Friday
         </div>
-        <div style={{ fontFamily: 'Big Shoulders Display, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 28, textTransform: 'uppercase', letterSpacing: '-0.005em', marginTop: 4, lineHeight: 1 }}>
+        <div style={{ fontFamily: 'Big Shoulders, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 28, textTransform: 'uppercase', letterSpacing: '-0.005em', marginTop: 4, lineHeight: 1 }}>
           Tonight near you
         </div>
         <div style={{ display: 'flex', gap: 6, marginTop: 14, marginBottom: 14, flexWrap: 'wrap' }}>
@@ -100,7 +100,7 @@ function ScreenBooking({ accent }: { accent: string }) {
         <div style={{ fontSize: 11, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#7c87a3', fontFamily: 'JetBrains Mono, monospace' }}>
           ← Karsaz Sports Hub
         </div>
-        <div style={{ fontFamily: 'Big Shoulders Display, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 26, textTransform: 'uppercase', marginTop: 6, lineHeight: 1 }}>
+        <div style={{ fontFamily: 'Big Shoulders, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 26, textTransform: 'uppercase', marginTop: 6, lineHeight: 1 }}>
           Pick a slot
         </div>
         <div style={{ display: 'flex', gap: 4, marginTop: 16, marginBottom: 16 }}>
@@ -146,7 +146,7 @@ function ScreenBooking({ accent }: { accent: string }) {
           padding: '12px 14px',
           background: accent,
           color: '#fff',
-          fontFamily: 'Big Shoulders Display, Impact, sans-serif',
+          fontFamily: 'Big Shoulders, Impact, sans-serif',
           fontWeight: 800,
           fontStretch: '75%',
           fontSize: 14,
@@ -170,7 +170,7 @@ function ScreenDashboard({ accent, provider }: { accent: string; provider: strin
         <div style={{ fontSize: 10, letterSpacing: '0.14em', textTransform: 'uppercase', color: provider, fontFamily: 'JetBrains Mono, monospace' }}>
           Vendor · DHA Arena
         </div>
-        <div style={{ fontFamily: 'Big Shoulders Display, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 22, textTransform: 'uppercase', marginTop: 4, lineHeight: 1 }}>
+        <div style={{ fontFamily: 'Big Shoulders, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 22, textTransform: 'uppercase', marginTop: 4, lineHeight: 1 }}>
           Today&apos;s bookings
         </div>
         <div style={{
@@ -184,7 +184,7 @@ function ScreenDashboard({ accent, provider }: { accent: string; provider: strin
             <span style={{ fontSize: 10, color: '#7c87a3' }}>REVENUE TODAY</span>
             <span style={{ fontSize: 10, color: provider }}>+18%</span>
           </div>
-          <div style={{ fontFamily: 'Big Shoulders Display, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 36, lineHeight: 1 }}>
+          <div style={{ fontFamily: 'Big Shoulders, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 36, lineHeight: 1 }}>
             <span style={{ fontSize: 18, fontWeight: 400, color: '#7c87a3' }}>PKR </span>
             32,400
           </div>
@@ -244,7 +244,7 @@ function ScreenMatch({ accent }: { accent: string }) {
         <div style={{ fontSize: 11, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#7c87a3', fontFamily: 'JetBrains Mono, monospace' }}>
           Open Matches
         </div>
-        <div style={{ fontFamily: 'Big Shoulders Display, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 24, textTransform: 'uppercase', marginTop: 4, lineHeight: 1 }}>
+        <div style={{ fontFamily: 'Big Shoulders, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 24, textTransform: 'uppercase', marginTop: 4, lineHeight: 1 }}>
           Find your <span style={{ fontFamily: 'Instrument Serif, serif', fontStyle: 'italic', fontWeight: 400, color: accent, textTransform: 'none' }}>game.</span>
         </div>
         <div style={{ marginTop: 16, display: 'flex', flexDirection: 'column', gap: 10 }}>
@@ -260,7 +260,7 @@ function ScreenMatch({ accent }: { accent: string }) {
               border: '1px solid rgba(238,242,255,0.08)'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
-                <span style={{ fontFamily: 'Big Shoulders Display, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 16, textTransform: 'uppercase' }}>{m.sport}</span>
+                <span style={{ fontFamily: 'Big Shoulders, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 16, textTransform: 'uppercase' }}>{m.sport}</span>
                 <span style={{ fontSize: 9, padding: '2px 6px', border: '1px solid rgba(238,242,255,0.2)', borderRadius: 4, color: '#b9c2dc' }}>{m.skill}</span>
               </div>
               <div style={{ fontSize: 10, color: '#7c87a3', marginBottom: 8 }}>{m.when} · {m.need}</div>
@@ -290,7 +290,7 @@ function ScreenCalendar({ accent, provider }: { accent: string; provider: string
         <div style={{ fontSize: 10, letterSpacing: '0.14em', textTransform: 'uppercase', color: provider, fontFamily: 'JetBrains Mono, monospace' }}>
           Vendor · Weekly view
         </div>
-        <div style={{ fontFamily: 'Big Shoulders Display, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 24, textTransform: 'uppercase', marginTop: 4, lineHeight: 1 }}>
+        <div style={{ fontFamily: 'Big Shoulders, Impact, sans-serif', fontWeight: 800, fontStretch: '75%', fontSize: 24, textTransform: 'uppercase', marginTop: 4, lineHeight: 1 }}>
           All courts, one view
         </div>
         <div style={{ marginTop: 14, display: 'grid', gridTemplateColumns: '32px repeat(5, 1fr)', fontSize: 9, gap: 2 }}>
